@@ -1,0 +1,419 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("baktol1.jpg");
+	height 100vh;
+}
+.icon1{
+    position: absolute;
+    right: 533px;
+    top: 52px;
+}
+.icon2{
+    position: absolute;
+    right: 436px;
+    top: 51px;
+}
+.icon3{
+    position: absolute;
+    right: 322px;
+    top: 52px;
+}
+.icon4{
+    position: absolute;
+    right: 218px;
+    top: 53px;
+}
+.icon5{
+    position: absolute;
+    right: 112px;
+    top: 55px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.text{
+    color: black;
+    position: absolute;
+    top: 50px;
+    right:60px;
+    word-spacing: 2em;
+    font-size: 20px;
+}
+.me{
+	position: relative;
+    color: white;
+    font-size: 26px;
+	text-decoration: none;
+    margin-top: 4em;
+    margin-left: 1.5em;
+}
+
+.me h6{
+	font-size: 40px;
+	color: #00abf0;
+}
+
+.me h2{
+	font-size: 32px;
+	font-weight: 700;
+	color: #00abf0;
+}
+.me1{
+    font-size: 19px;
+    margin-left: 2em;
+    color: white;
+	justify-content: space-between;
+}
+.imahe{
+    position: absolute;
+    top: 22px;
+    left:100px; 
+}
+
+.me h1 span{
+    color: red;
+}
+.act1{
+    position: absolute;
+    top: 140px;
+    left: 290px;
+}
+.act2{
+    position: absolute;
+    top: 140px;
+    left: 580px
+}
+.act3{
+    position: absolute;
+    top: 140px;
+    left: 870px;
+}
+.act4{
+    position: absolute;
+    bottom: 90px;
+    left: 290px;
+}
+.act5{
+    position: absolute;
+    bottom: 90px;
+    left: 580px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.act6{
+    position: absolute;
+    bottom: 90px;
+    left: 870px;
+}
+.act11{
+    position: absolute;
+    top: 290px;
+    left: 340px;
+    font-size: 22px;
+    color: white;
+}
+.act12{
+    position: absolute;
+    top: 290px;
+    left: 630px;
+    font-size: 22px;
+    color: white;
+}
+.act13{
+    position: absolute;
+    top: 290px;
+    left: 920px;
+    font-size: 22px;
+    color: white;
+}
+.act14{
+    position: absolute;
+    bottom: 70px;
+    left: 340px;
+    font-size: 22px;
+    color: white;
+}
+.act15{
+    position: absolute;
+    bottom: 70px;
+    left: 630px;
+    font-size: 22px;
+    color: white;
+}
+.act16{
+    position: absolute;
+    bottom: 70px;
+    left: 920px;
+    font-size: 22px;
+    color: white;
+}
+.insta{
+    position: absolute;
+    top: 170px;
+    left: 300px;
+}
+.fb{
+    position: absolute;
+    top: 130px;
+    left: 650px;
+}
+.mail{
+    position: absolute;
+    top: 170px;
+    right: 300px;
+}
+span{
+    color: red;
+}
+.border1{
+    position: absolute;
+    top: 270px;
+    left: 230px;
+}
+.border2{
+    position: absolute;
+    top: 230px;
+    left: 565px;
+}
+.border3{
+    position: absolute;
+    top: 270px;
+    right: 230px;
+}
+.instatext {
+    position: absolute;
+    top: 290px;
+    left: 261px;
+    color: white;
+}
+.fbtext {
+    position: absolute;
+    top: 245px;
+    left: 595px;
+    color: white;
+}
+.mailtext {
+    position: absolute;
+    top: 290px;
+    right: 254px;
+    color: white;
+}
+.abtme{
+    position: absolute;
+    color: white;
+    top: 170px;
+    left: 630px;
+}
+.pic1{
+    position: absolute;
+    top: 230px;
+    left: 300px;
+}
+
+.textme{
+    position: absolute;
+    text-align: no-repeat;
+    color: white;
+    top: 230px;
+    left: 630px;
+}
+.active1{
+    position: absolute;
+    border: 1px solid white;
+    top: 145px;
+    left: 50px;   
+}
+.active2{
+    position: absolute;
+    border: 1px solid white;
+    top: 145px;
+    left: 485px;
+}
+.active3{
+    position: absolute;
+    border: 1px solid white;
+    top: 145px;
+    right: 50px;
+}
+.active4{
+    position: absolute;
+    border: 1px solid white;
+    bottom: 40px;
+    left: 50px;   
+}
+.active5{
+    position: absolute;
+    border: 1px solid white;
+    bottom: 40px;
+    left: 485px;
+}
+.active6{
+    position: absolute;
+    border: 1px solid white;
+    bottom: 40px;
+    right: 50px;
+}
+
+.bubbles img{
+	width: 50px;
+	animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	bottom: -70px;
+}
+
+@keyframes bubble{
+	0%{
+		transform: translateY(0);
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	70%{
+		opacity: 1;
+	}
+	100%{
+		transform: translateY(-80vh);
+		opacity: 0;
+	}
+}
+
+.bubbles img:nth-child(1){
+	animation-delay: 2s;
+}
+.bubbles img:nth-child(2){
+	animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+	animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+	animation-delay: 4s;
+}
+.bubbles img:nth-child(5){
+	animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+	animation-delay: 6s;
+}
+.bubbles img:nth-child(7){
+	animation-delay: 7s;
+}
+
+.me1 .botton-box{
+	display: flex;
+	justify-content: space-between;
+	width: 345px;
+	height: 50px;
+}
+
+.botton-box a {
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height:100%;
+	background: #00abf0;
+	border: 2px solid #00abf0;
+	border-radius: 8px;
+	font-size: 19px;
+	color: #081b29;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 1px;
+	z-index: 1;
+	overflow: hidden;
+	transition: .4s;
+}
+
+.botton-box a:hover {
+	color: #00abf0;
+}
+	
+.botton-box a:nth-child(2) {
+	background: transparent;
+	color: #00abf0;
+}
+
+.botton-box a:nth-child(2):hover {
+	color: #081b29
+}
+
+.botton-box a:nth-child(2)::before{
+	background: 00abf0;
+}
+
+.botton-box a::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background: #081b29;
+	z-index: -1;
+	transition: .4s;
+}
+
+.botton-box a:hover::before {
+	width: 100%;
+}
+
+.Home-sci {
+	position: relative;
+	height:100%;
+	width: 160px;
+	display: inline-flex;
+	justify-content: space-between;
+	margin-top: 3em;
+    margin-left: 0em;
+	
+}
+
+.Home-sci a {
+	position: relative;
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border: 2px solid #00abf0;
+	border-radius: 50%;
+	font-size: 20px;
+	color: #00abf0;
+	text-decoration: none;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.Home-sci a::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 0%;
+	height: 100%;
+	background: #00abf0;
+	z-index: -1;
+	transition: .4s;
+}
+
+.Home-sci a:hover::before {
+	width: 100%;
+}
+	
+/* KEYFRAMES ANIMATION */
+@keyframes showRight {
+	100% {
+		width:0;
+	}
+}
